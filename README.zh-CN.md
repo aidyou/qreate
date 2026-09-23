@@ -84,9 +84,9 @@ node scripts/verify-icons.mjs # 以 ASCII 像素预览生成结果
 ## 隐私
 
 Qreate 不收集任何个人数据，也不发起任何网络请求——一切均在本地完成。完整隐私
-政策（英文 + 简体中文）位于 [`docs/privacy.html`](docs/privacy.html)，并发布
-在 <https://aidyou.github.io/qreate/privacy.html>（GitHub Pages，由 `docs/`
-目录提供）。Chrome 应用商店后台请填写该网址。
+政策（英文 + 简体中文）位于 [`PRIVACY.md`](PRIVACY.md)。Chrome 应用商店后台
+可直接填写 GitHub 渲染页面网址
+<https://github.com/aidyou/qreate/blob/main/PRIVACY.md>，无需另行部署。
 
 ## 第三方组件
 

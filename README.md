@@ -89,9 +89,9 @@ Rasterization uses [`@resvg/resvg-wasm`](https://github.com/yisibl/resvg-js); th
 
 Qreate collects no personal data and makes zero network requests — everything
 runs locally. The full privacy policy (English + 简体中文) lives in
-[`docs/privacy.html`](docs/privacy.html) and is published at
-<https://aidyou.github.io/qreate/privacy.html> (GitHub Pages, served from the
-`docs/` folder). Use that URL for the Chrome Web Store listing.
+[`PRIVACY.md`](PRIVACY.md). For the Chrome Web Store listing, use the GitHub
+rendered page: <https://github.com/aidyou/qreate/blob/main/PRIVACY.md> — no
+separate deployment needed.
 
 ## Third-party components
 
