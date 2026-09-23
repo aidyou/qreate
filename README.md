@@ -85,6 +85,14 @@ Rasterization uses [`@resvg/resvg-wasm`](https://github.com/yisibl/resvg-js); th
 > small icon looks soft, use solid shapes at that size rather than a scaled-down
 > version of the large design.
 
+## Privacy
+
+Qreate collects no personal data and makes zero network requests — everything
+runs locally. The full privacy policy (English + 简体中文) lives in
+[`docs/privacy.html`](docs/privacy.html) and is published at
+<https://aidyou.github.io/qreate/privacy.html> (GitHub Pages, served from the
+`docs/` folder). Use that URL for the Chrome Web Store listing.
+
 ## Third-party components
 
 - [qrcode-generator](https://github.com/kazuhikoarase/qrcode-generator) by

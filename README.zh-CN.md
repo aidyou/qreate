@@ -81,6 +81,13 @@ node scripts/verify-icons.mjs # 以 ASCII 像素预览生成结果
 > 提示：16px（工具栏尺寸）下细线条与亚像素细节会发糊。若小图标看起来模糊，
 > 应在该尺寸改用实心图形，而不是直接缩小大尺寸设计。
 
+## 隐私
+
+Qreate 不收集任何个人数据，也不发起任何网络请求——一切均在本地完成。完整隐私
+政策（英文 + 简体中文）位于 [`docs/privacy.html`](docs/privacy.html)，并发布
+在 <https://aidyou.github.io/qreate/privacy.html>（GitHub Pages，由 `docs/`
+目录提供）。Chrome 应用商店后台请填写该网址。
+
 ## 第三方组件
 
 - [qrcode-generator](https://github.com/kazuhikoarase/qrcode-generator)
