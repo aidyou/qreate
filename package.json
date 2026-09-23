@@ -1,0 +1,12 @@
+{
+  "name": "qreate-icons",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Build-time tooling for generating Qreate placeholder icons (SVG -> PNG).",
+  "scripts": {
+    "generate-icons": "node scripts/generate-placeholder-icons.mjs"
+  },
+  "devDependencies": {
+    "@resvg/resvg-wasm": "^2.6.2"
+  }
+}

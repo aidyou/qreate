@@ -1,0 +1,62 @@
+{
+  "extName": {
+    "message": "Qreate",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "A minimal, beautiful QR code generator.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Qreate",
+    "description": "Popup document title"
+  },
+  "brandTagline": {
+    "message": "Minimal · Fast · Private",
+    "description": "Small tagline shown in the popup header"
+  },
+  "urlInputLabel": {
+    "message": "Current URL",
+    "description": "Label above the URL input"
+  },
+  "urlInputPlaceholder": {
+    "message": "Paste a link or any text…",
+    "description": "Placeholder of the URL input"
+  },
+  "qrEmptyHint": {
+    "message": "Type something to generate a QR code",
+    "description": "Hint shown when the input is empty"
+  },
+  "qrTooLong": {
+    "message": "Content is too long to encode",
+    "description": "Error hint when content exceeds QR capacity"
+  },
+  "qrAlt": {
+    "message": "QR code",
+    "description": "Accessible label of the QR image"
+  },
+  "menuToggleLabel": {
+    "message": "Right-click menu",
+    "description": "Toggle label"
+  },
+  "menuToggleDesc": {
+    "message": "Adds “Generate page QR” to the page right-click menu",
+    "description": "Toggle description"
+  },
+  "menuToggleError": {
+    "message": "Couldn’t update the context menu — check the extension Service Worker console",
+    "description": "Error hint shown when toggling the context menu fails"
+  },
+  "contextMenuTitle": {
+    "message": "Generate page QR",
+    "description": "Context menu item title"
+  },
+  "overlayTitle": {
+    "message": "Page QR code",
+    "description": "Title of the floating QR overlay injected into the page"
+  },
+  "overlayClose": {
+    "message": "Close",
+    "description": "Close button tooltip of the floating overlay"
+  }
+}

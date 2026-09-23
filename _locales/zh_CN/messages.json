@@ -1,0 +1,62 @@
+{
+  "extName": {
+    "message": "Qreate",
+    "description": "扩展名称"
+  },
+  "extDesc": {
+    "message": "极简美观的二维码生成器。",
+    "description": "扩展描述"
+  },
+  "popupTitle": {
+    "message": "Qreate",
+    "description": "浮窗文档标题"
+  },
+  "brandTagline": {
+    "message": "极简 · 快速 · 私密",
+    "description": "浮窗头部的小标语"
+  },
+  "urlInputLabel": {
+    "message": "当前网址",
+    "description": "网址输入框上方的标签"
+  },
+  "urlInputPlaceholder": {
+    "message": "粘贴网址或任意文字…",
+    "description": "网址输入框占位提示"
+  },
+  "qrEmptyHint": {
+    "message": "输入内容后自动生成二维码",
+    "description": "输入为空时显示的提示"
+  },
+  "qrTooLong": {
+    "message": "内容过长，无法生成二维码",
+    "description": "内容超出二维码容量时的错误提示"
+  },
+  "qrAlt": {
+    "message": "二维码",
+    "description": "二维码的可访问标签"
+  },
+  "menuToggleLabel": {
+    "message": "右键菜单",
+    "description": "开关标签"
+  },
+  "menuToggleDesc": {
+    "message": "在网页右键菜单中加入“生成页面二维码”",
+    "description": "开关描述"
+  },
+  "menuToggleError": {
+    "message": "更新右键菜单失败——请查看扩展 Service Worker 控制台",
+    "description": "开关切换失败时显示的错误提示"
+  },
+  "contextMenuTitle": {
+    "message": "生成页面二维码",
+    "description": "右键菜单项标题"
+  },
+  "overlayTitle": {
+    "message": "页面二维码",
+    "description": "注入到页面的二维码浮层标题"
+  },
+  "overlayClose": {
+    "message": "关闭",
+    "description": "二维码浮层的关闭按钮提示"
+  }
+}

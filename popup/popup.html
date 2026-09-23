@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qreate</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="aurora" aria-hidden="true">
+    <span class="blob blob-a"></span>
+    <span class="blob blob-b"></span>
+  </div>
+
+  <main class="card">
+    <header class="head">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <rect x="5" y="5" width="14" height="14" rx="2" fill="currentColor" fill-opacity="0.16"/>
+            <rect x="7" y="7" width="4" height="4" rx="1" fill="currentColor"/>
+            <rect x="13" y="13" width="4" height="4" rx="1" fill="currentColor"/>
+            <rect x="13" y="7" width="2" height="2" rx="0.5" fill="currentColor" fill-opacity="0.55"/>
+            <rect x="7" y="13" width="2" height="2" rx="0.5" fill="currentColor" fill-opacity="0.55"/>
+          </svg>
+        </span>
+        <span class="brand-name">Qreate</span>
+      </div>
+      <span class="tagline" data-i18n="brandTagline"></span>
+    </header>
+
+    <section class="qr-zone">
+      <div class="qr-frame" id="qrFrame">
+        <div class="qr-empty" id="qrEmpty" data-i18n="qrEmptyHint"></div>
+      </div>
+      <div class="qr-error" id="qrError" data-i18n="qrTooLong" hidden></div>
+    </section>
+
+    <section class="field">
+      <label class="field-label" for="urlInput" data-i18n="urlInputLabel"></label>
+      <input
+        id="urlInput"
+        class="url-input"
+        type="text"
+        maxlength="2048"
+        autocomplete="off"
+        autocapitalize="off"
+        spellcheck="false"
+        data-i18n-placeholder="urlInputPlaceholder"
+      />
+    </section>
+
+    <section class="switch-row">
+      <div class="switch-text">
+        <span class="switch-title" data-i18n="menuToggleLabel"></span>
+        <span class="switch-desc" data-i18n="menuToggleDesc"></span>
+      </div>
+      <button
+        type="button"
+        class="switch"
+        id="menuToggle"
+        role="switch"
+        aria-checked="false"
+      >
+        <span class="knob" aria-hidden="true"></span>
+      </button>
+    </section>
+  </main>
+
+  <script src="../lib/qrcode.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
